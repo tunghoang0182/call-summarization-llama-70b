@@ -5,8 +5,8 @@ import json
 import os
 
 # API keys
-openai_api_key = 
-groq_api_key = 
+openai_api_key = st.secrets["API_KEY"]
+groq_api_key = st.secrets["API_KEY_1"]
 
 # Clients
 openai_client = OpenAI(api_key=openai_api_key)
